@@ -22,4 +22,6 @@ function sendMessage(message, chatID){
          oReq.send()
 }
 
-runBot()
+setInterval(() => {
+  runBot()
+}, 1000);
