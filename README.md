@@ -23,7 +23,7 @@
  ## Demo channel and bot
  
  
-[![Telegram  - channel](https://img.shields.io/badge/Telegram_-channel-24A2E0?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/jokes_by_robot)
+[![Telegram  - channel](https://img.shields.io/badge/Telegram_-channel-24A2E0?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/jokes_by_ai)
 [![Telegram  - Bot](https://img.shields.io/badge/Telegram_-Bot-24A2E0?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/sendhumors_bot)
 
 ## Instalation
