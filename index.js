@@ -1,6 +1,5 @@
 const axios = require('axios').default;
 const env = require('dotenv').config({path: './.env'});
-var XMLHttpRequest = require('xhr2');
 
 async function runBot(){
     try{
