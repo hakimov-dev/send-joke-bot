@@ -20,4 +20,4 @@ function sendMessage(message){
 
 setInterval(() => {
   runBot()
-}, 1000);
+}, 18000);
