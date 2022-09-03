@@ -3,7 +3,11 @@ const env = require('dotenv').config({path: './.env'});
 var XMLHttpRequest = require('xhr2');
 
 async function runBot(){
-    
+    try{
+
+    }catch(error){
+        console.log(error)
+    }
 }
 
 function sendMessage(message){
