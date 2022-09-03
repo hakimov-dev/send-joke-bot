@@ -5,7 +5,11 @@ async function runBot(){
     const { data } = await axios.get(`${env.parsed.TELEGRAM_API}${env.parsed.BOT_TOKEN}/getUpdates`)
 
     data.forEach(user => {
-        
+        if(user.text == '/user' || user.text == '/send-humor'){
+
+        }else{
+            
+        }
     });
 }
 
