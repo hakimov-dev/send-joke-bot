@@ -6,5 +6,9 @@ async function runBot(){
 }
 
 function sendMessage(message, chatID){
+    var url = `${env.parsed.TELEGRAM_API}${env.parsed.BOT_TOKEN}/sendMessage?chat_id=${chatID}&text=${message}/`
 
+    let oReq = new XMLHttpRequest();
+         oReq.open("GET", url, true);
+         oReq.send()
 }
