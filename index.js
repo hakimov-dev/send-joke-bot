@@ -18,6 +18,6 @@ function sendMessage(message){
      axios.get(url)
 }
 
-// setInterval(() => {
+setInterval(() => {
   runBot()
-// }, 1000);
+}, 1000);
