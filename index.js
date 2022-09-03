@@ -4,7 +4,7 @@ const env = require('dotenv').config({path: './.env'});
 async function runBot(){
     const { data } = await axios.get(`${env.parsed.TELEGRAM_API}${env.parsed.BOT_TOKEN}/getUpdates`)
 
-    data.forEach(user => {
+    data.result.forEach(user => {
         if(user.text == '/user' || user.text == '/send-humor'){
          console.log('hello')
         }else{
