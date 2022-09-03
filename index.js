@@ -5,7 +5,7 @@ var XMLHttpRequest = require('xhr2');
 async function runBot(){
     try{
      const { data } = await axios.get(env.parsed.JOKE_API)
-     const message = `${data.category} %0A %0A ${data.joke} %0A %0A Jokes: @jokes_by_robot`
+     const message = `- ${data.category} %0A %0A ${data.joke} %0A %0A Jokes: @jokes_by_robot`
       sendMessage(message)
     }catch(error){
         console.log(error)
