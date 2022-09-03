@@ -4,7 +4,8 @@ var XMLHttpRequest = require('xhr2');
 
 async function runBot(){
     try{
-
+     const { data } = await axios.get(env.parsed.JOKE_API)
+     console.log(data)
     }catch(error){
         console.log(error)
     }
