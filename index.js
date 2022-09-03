@@ -10,13 +10,12 @@ async function runBot(){
          console.log('hello')
         }else{
           sendMessage("Sorry, I didn't understand you...)", user.message.from.id)
-          console.log(user)
         }
     });
 }
 
 function sendMessage(message, chatID){
-    var url = `${env.parsed.TELEGRAM_API}${env.parsed.BOT_TOKEN}/sendMessage?chat_id=${chatID}&text=${message}/`
+    var url = `${env.parsed.TELEGRAM_API}${env.parsed.BOT_TOKEN}/sendMessage?chat_id=${chatID}&text=${message}`
 
     let oReq = new XMLHttpRequest();
          oReq.open("GET", url, true);
