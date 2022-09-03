@@ -12,7 +12,7 @@ async function runBot(){
 }
 
 function sendMessage(message){
-    var url = `${env.parsed.TELEGRAM_API}${env.parsed.BOT_TOKEN}/sendMessage?chat_id=${chatID}&text=${message}`
+    var url = `${env.parsed.TELEGRAM_API}${env.parsed.BOT_TOKEN}/sendMessage?chat_id=${env.parsed.CHANEL_ID}&text=${message}`
 
     let oReq = new XMLHttpRequest();
          oReq.open("GET", url, true);
