@@ -6,9 +6,10 @@ async function runBot(){
 
     data.forEach(user => {
         if(user.text == '/user' || user.text == '/send-humor'){
-
+         console.log('hello')
         }else{
-            
+          sendMessage("Sorry, I didn't understand you...)", user.message.from.id)
+          console.log(user)
         }
     });
 }
