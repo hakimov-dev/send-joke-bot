@@ -1,0 +1,1 @@
+const env = require('dotenv').config({path: './.env'});
