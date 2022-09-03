@@ -4,7 +4,7 @@ const env = require('dotenv').config({path: './.env'});
 async function runBot(){
     try{
      const { data } = await axios.get(env.parsed.JOKE_API)
-     const message = `- ${data.category} %0A %0A ${data.joke} %0A %0A Jokes: @jokes_by_robot`
+     const message = `- ${data.category} %0A %0A ${data.joke} %0A %0A Jokes: @jokes_by_ai`
       sendMessage(message)
     }catch(error){
         console.log(error)
