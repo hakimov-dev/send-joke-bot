@@ -1,4 +1,4 @@
-import axios from 'axios'
+const axios = require('axios').default;
 const env = require('dotenv').config({path: './.env'});
 
 async function runBot(){
