@@ -20,4 +20,4 @@ function sendMessage(message){
 setInterval(() => {
   runBot()
   console.log('Send joke )')
-}, 1180000);
+}, 2360000);
